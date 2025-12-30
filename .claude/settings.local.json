@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf node_modules pnpm-lock.yaml)",
+      "Bash(PNPM_IGNORE_SCRIPTS=false pnpm install)",
+      "Bash(cat .npmrc)",
+      "Bash(pnpm config list)"
+    ]
+  }
+}
